@@ -1,0 +1,14 @@
+call plug#begin('~/.vim/plugged')
+Plug '/usr/local/opt/fzf'
+Plug 'airblade/vim-gitgutter'
+Plug 'bling/vim-airline'
+Plug 'gorodinskiy/vim-coloresque'
+Plug 'jremmen/vim-ripgrep'
+Plug 'junegunn/fzf.vim'
+Plug 'scrooloose/nerdcommenter'
+Plug 'sheerun/vim-polyglot'
+Plug 'tpope/vim-fugitive'
+Plug 'tpope/vim-surround'
+Plug 'quramy/tsuquyomi'
+Plug 'w0rp/ale'
+call plug#end()
