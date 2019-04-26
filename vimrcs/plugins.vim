@@ -9,6 +9,7 @@ Plug 'scrooloose/nerdcommenter'
 Plug 'sheerun/vim-polyglot'
 Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-surround'
+Plug 'tpope/vim-rhubarb'
 Plug 'quramy/tsuquyomi'
 Plug 'w0rp/ale'
 call plug#end()
