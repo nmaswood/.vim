@@ -3,7 +3,6 @@
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 let g:gitgutter_enabled=1
 nnoremap <silent> <leader>d :GitGutterToggle<cr>
-
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Rg
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -19,7 +18,9 @@ let g:ale_completion_enabled = 1
 let g:ale_fixers = {
 \   'python': ['yapf', 'isort', 'autopep8'],
 \   'javascript': ['prettier'],
-\   'typescript': ['tslint', 'prettier', ]
+\   'typescript': ['tslint', 'prettier'],
+\   'jsx': ['prettier'],
+\   'json': ['jq', 'prettier']
 \}
 
 let g:ale_linters = {
