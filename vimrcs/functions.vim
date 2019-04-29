@@ -4,5 +4,3 @@ function Diary()
     echo path
     execute "vsplit" . " " . path
 endfunction
-
-nnoremap <leader>0 :execute Diary()<CR>
