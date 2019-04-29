@@ -153,6 +153,8 @@ nnoremap <leader>q :q<cr>
 nnoremap <leader>1 :tabe<cr>
 nnoremap <leader>e :e#<cr>
 
+nnoremap <leader>` :e $HOME/.vim<cr>
+
 nnoremap <leader>5 :let @" = expand("%:p")<cr>
 
 autocmd! bufwritepost vimrc source $MYVIMRC
