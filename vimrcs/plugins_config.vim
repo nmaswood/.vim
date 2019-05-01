@@ -45,3 +45,12 @@ noremap <leader>3 :ALESymbolSearch
 
 noremap <leader>t :TsuImplementation<CR>
 noremap <leader>4 :TsuGeterrProject<CR>
+
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => Calendar
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+let g:calendar_google_calendar = 1
+let g:calendar_google_task = 1
+

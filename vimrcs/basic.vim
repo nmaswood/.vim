@@ -147,15 +147,17 @@ let mapleader = ","
 " Ease of use shortcuts
 nnoremap <leader>s :split<cr>
 nnoremap <leader>j :Files<cr>
-nnoremap <leader>v :split $MYVIMRC<cr>
 nnoremap <leader>w :w<cr>
 nnoremap <leader>q :q<cr>
-nnoremap <leader>1 :tabe<cr>
 nnoremap <leader>e :e#<cr>
-
-nnoremap <leader>` :e $HOME/.vim<cr>
-
+nnoremap <leader>v :vsplit<cr>
+nnoremap <leader>b :vsplit $HOME/.vim<cr>
+nnoremap <leader>- :source %<cr>
+nnoremap <leader>+ :source $HOME/.vimrc
+nnoremap <leader>1 :tabe<cr>
 nnoremap <leader>5 :let @" = expand("%:p")<cr>
+
+noremap <F2> :Rg debugger<CR>
 
 autocmd! bufwritepost vimrc source $MYVIMRC
 
