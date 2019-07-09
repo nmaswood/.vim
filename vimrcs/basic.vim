@@ -153,6 +153,7 @@ nnoremap <leader>e :e#<cr>
 nnoremap <leader>v :vsplit<cr>
 nnoremap <leader>- :source %<cr>
 nnoremap <leader>e :e#<cr>
+nnoremap <leader>z :Explore<cr>
 
 
 " RC Related
@@ -161,11 +162,9 @@ nnoremap <leader>+ :source $HOME/.vimrc
 
 " Function keys
 noremap <F2> :Rg debugger<CR>
+noremap <F5> yw :Rg <Ctrl-R>"<CR>
 
-
-" Numerical keys
-nnoremap <leader>1 :tabe<cr>
-nnoremap <leader>5 :let @" = expand("%:p")<cr>
+vnoremap <leader>9 "*y
 
 
 autocmd! bufwritepost vimrc source $MYVIMRC
