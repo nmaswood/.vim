@@ -162,7 +162,7 @@ nnoremap <leader>+ :source $HOME/.vimrc
 
 " Function keys
 noremap <F2> :Rg debugger<CR>
-noremap <F5> yw :Rg <Ctrl-R>"<CR>
+noremap <F5> yw :execute "Rg " @0<CR>
 
 vnoremap <leader>9 "*y
 
