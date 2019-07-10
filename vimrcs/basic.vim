@@ -82,6 +82,9 @@ set tm=500
 " Add a bit extra margin to the left
 set foldcolumn=1
 
+
+set statusline+=%F
+
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Colors and Fonts
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -153,14 +156,23 @@ nnoremap <leader>e :e#<cr>
 nnoremap <leader>v :vsplit<cr>
 nnoremap <leader>- :source %<cr>
 nnoremap <leader>e :e#<cr>
+nnoremap <leader>n :e $HOME/code/checklists<cr>
+nnoremap <leader>nm :60vsplit $HOME/code/issues<cr>
+nnoremap <leader>z :Explore<cr>
+vnoremap <leader>9 "*y<cr>
 
 
 " RC Related
 nnoremap <leader>b :vsplit $HOME/.vim<cr>
-nnoremap <leader>+ :source $HOME/.vimrc
+nnoremap <leader>+ :source $HOME/.vimrc<cr>
 
 " Function keys
 noremap <F2> :Rg debugger<CR>
+inoremap <F3> <C-R>=
+inoremap <F4> <C-R>=expand("%:p")<CR>
+
+
+nnoremap <F5> yw:Rg <C-R>0<CR>
 
 
 " Numerical keys

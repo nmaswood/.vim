@@ -19,8 +19,9 @@ let g:ale_fixers = {
 \   'python': ['yapf', 'isort', 'autopep8'],
 \   'javascript': ['prettier'],
 \   'typescript': ['tslint', 'prettier'],
-\   'jsx': ['prettier'],
-\   'json': ['jq', 'prettier']
+\   'jsx': ['prettier', 'eslint'],
+\   'json': ['jq', 'prettier'],
+\   'scss': ['prettier', 'remove_trailing_lines', 'stylelint']
 \}
 
 let g:ale_linters = {
