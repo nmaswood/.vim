@@ -1,12 +1,12 @@
 call plug#begin('~/.vim/plugged')
 Plug '/usr/local/opt/fzf'
+Plug 'sheerun/vim-polyglot'
 Plug 'airblade/vim-gitgutter'
 Plug 'bling/vim-airline'
 Plug 'jremmen/vim-ripgrep'
 Plug 'junegunn/fzf.vim'
 Plug 'quramy/tsuquyomi'
 Plug 'scrooloose/nerdcommenter'
-Plug 'sheerun/vim-polyglot'
 Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-rhubarb'
 Plug 'w0rp/ale'

@@ -15,11 +15,15 @@ nnoremap <leader>2 :Rg
 let g:ale_fix_on_save = 1
 let g:ale_completion_enabled = 1
 
+
+let g:ale_linter_aliases = {'typescriptreact': 'typescript'}
+let g:ale_linter_aliases = {'javascriptreact': 'javascript'}
+
 let g:ale_fixers = {
 \   'python': ['yapf', 'isort', 'autopep8'],
-\   'javascript': ['prettier'],
-\   'typescript': ['tslint', 'prettier'],
-\   'jsx': ['prettier', 'eslint'],
+\   'javascript': ['prettier', 'eslint'],
+\   'typescript': ['eslint', 'prettier', 'tslint', 'xo'],
+\   'typescriptreact': ['eslint', 'prettier', 'tslint', 'xo'],
 \   'json': ['jq', 'prettier'],
 \   'scss': ['prettier', 'remove_trailing_lines', 'stylelint']
 \}
@@ -27,7 +31,8 @@ let g:ale_fixers = {
 let g:ale_linters = {
 \   'python': ['pyls', 'mypy'],
 \   'javascript': ['eslint'],
-\   'typescript': ['tslint', 'tsserver', 'typecheck'],
+\   'jsx': ['prettier', 'eslint' ],
+\   'tsx': ['eslint', 'tslint', 'tsserver', 'typecheck', 'xo'],
 \   'scss': ['stylelint']
 \}
 
@@ -46,12 +51,3 @@ noremap <leader>3 :ALESymbolSearch
 
 noremap <leader>t :TsuImplementation<CR>
 noremap <leader>4 :TsuGeterrProject<CR>
-
-
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" => Calendar
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-
-let g:calendar_google_calendar = 1
-let g:calendar_google_task = 1
-
