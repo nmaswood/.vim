@@ -92,7 +92,7 @@ set statusline+=%F
 syntax enable 
 
 try
-    colorscheme desert
+    colorscheme molokai
 catch
 endtry
 
@@ -145,8 +145,6 @@ set listchars=tab:▹\ ,trail:·,nbsp:⚋
 set fillchars=fold:-
 set list
 
-let mapleader = ","
-
 " Ease of use shortcuts
 nnoremap <leader>s :split<cr>
 nnoremap <leader>j :Files<cr>
@@ -173,9 +171,6 @@ noremap <F2> :Rg debugger<CR>
 inoremap <F3> <C-R>=
 inoremap <F4> <C-R>=expand("%:p")<CR>
 nnoremap <F5> yw:Rg <C-R>0<CR>
-"noremap <F5> yw :execute "Rg " @0<CR>
-"vnoremap <leader>9 "*y
-
 
 autocmd! bufwritepost vimrc source $MYVIMRC
 
