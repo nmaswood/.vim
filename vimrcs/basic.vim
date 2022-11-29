@@ -166,11 +166,14 @@ vnoremap <leader>9 "*y<cr>
 nnoremap <leader>b :vsplit $HOME/.vim<cr>
 nnoremap <leader>+ :source $HOME/.vimrc<cr>
 
+
 " Function keys
 noremap <F2> :Rg debugger<CR>
 inoremap <F3> <C-R>=
 inoremap <F4> <C-R>=expand("%:p")<CR>
-nnoremap <F5> yw:Rg <C-R>0<CR>
+nnoremap <leader>r yw:Rg <C-R>0<CR>
+nnoremap <leader>t 0v$ :Copilot panel <cr>
+
 
 autocmd! bufwritepost vimrc source $MYVIMRC
 

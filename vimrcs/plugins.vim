@@ -10,4 +10,6 @@ Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-rhubarb'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'tomasiser/vim-code-dark'
+Plug 'jparise/vim-graphql'
+Plug 'github/copilot.vim'
 call plug#end()
