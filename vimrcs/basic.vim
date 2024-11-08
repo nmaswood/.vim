@@ -141,8 +141,8 @@ set rtp+=/usr/local/opt/fzf
 
 " Make tabs, newlinees  and spaces visible
 
-set listchars=tab:▹\ ,trail:·,nbsp:⚋
-set fillchars=fold:-
+" set listchars=tab:▹\ ,trail:·,nbsp:⚋
+" set fillchars=fold:-
 set list
 
 " Ease of use shortcuts

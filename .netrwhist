@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =7
+let g:netrw_dirhist_7='/Users/nasrmaswood/code/bulbul/python/bulbul/bulbul'
+let g:netrw_dirhist_6='/Users/nasrmaswood/code/bulbul/typescript/packages/bulbul/src/app'
+let g:netrw_dirhist_5='/Users/nasrmaswood/code/bulbul/typescript/packages/bulbul/src/app/hospital'
+let g:netrw_dirhist_4='/Users/nasrmaswood/code/bulbul/typescript/packages/bulbul/src/app'
+let g:netrw_dirhist_3='/Users/nasrmaswood/code/bulbul/typescript/packages/bulbul/src/app/admin'
+let g:netrw_dirhist_2='/Users/nasrmaswood/code/bulbul/iac/bulbul'
+let g:netrw_dirhist_1='/Users/nasrmaswood/code/bulbul/typescript/packages/precedent-node/src'
+let g:netrw_dirhist_0='/Users/nasrmaswood/code/bulbul/typescript/packages/precedent-node/src/services'
+let g:netrw_dirhist_9='/Users/nasrmaswood/code/bulbul/typescript/packages/precedent-node/src'
+let g:netrw_dirhist_8='/Users/nasrmaswood/code/bulbul/typescript/packages/precedent-node/src/services'
