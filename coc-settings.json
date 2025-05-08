@@ -10,5 +10,16 @@
   },
   "coc.preferences.formatOnSaveFiletypes": ["*"],
   "python.formatting.provider": "ruff",
-  "python.formatting.ruffPath": "ruff"
+  "python.formatting.ruffPath": "ruff",
+  "python.analysis.diagnosticSeverityOverrides": {
+    "reportUnreachableCode": "none"
+  },
+  "prettier.enable": true,
+  "prettier.requireConfig": false,
+  "prettier.formatterPriority": 1,
+  "prettier.statusItemText": "ⓟ ",
+  "coc.preferences.formatOnSave": true,
+
+  "python.formatting.ruffArgs": ["--select", "I"],
+  "eslint.autoFixOnSave": true
 }

@@ -1,0 +1,1 @@
+:CocInstall coc-tsserver coc-prettier @yaegassy/coc-ruff coc-pyright coc-eslint coc-json @yaegassy/coc-tailwindcss3 coc-toml coc-docker coc-prisma @yaegassy/coc-volar coc-yaml coc-sqlfluff

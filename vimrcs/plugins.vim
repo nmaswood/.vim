@@ -14,5 +14,8 @@ Plug 'tomasiser/vim-code-dark'
 Plug 'jparise/vim-graphql'
 Plug 'github/copilot.vim'
 Plug 'yaegassy/coc-ruff', {'do': 'yarn install --frozen-lockfile'}
+Plug 'pasky/claude.vim'
+Plug 'prisma/vim-prisma'
+Plug 'yaegassy/coc-sqlfluff', {'do': 'yarn install --frozen-lockfile'}
 
 call plug#end()
